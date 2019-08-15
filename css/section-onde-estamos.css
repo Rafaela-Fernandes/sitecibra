@@ -1,0 +1,49 @@
+#section-onde-estamos{
+      padding-bottom: 5rem;
+}
+
+#section-onde-estamos.fa-industry{
+   
+    color: #454a0c
+}
+#section-onde-estamos svg{
+   font-size: 5rem;
+   color: #454a0c
+}
+
+#section-onde-estamos .media-body h5{
+    font-size: 60px;
+        color:#FFF
+}
+
+#section-onde-estamos .media-body p{
+    line-height: 3px;
+    letter-spacing: 1px
+}
+.accordion-onde-estamos .card-header{
+    
+    padding: .2rem 1.25rem !important;
+}
+
+.accordion-onde-estamos .card-header button{
+    
+    color:#383d41;
+    text-decoration: none;
+}
+
+.accordion-onde-estamos.card-header{
+    cursor: pointer
+}
+
+.accordion-onde-estamos .card-header:hover{
+    background: #cbd83b;
+    transition: background 1s;
+    border:0;
+}
+
+.accordion-onde-estamos a {
+    color: #454a0c;
+}
+#accordion-escritorios{
+    display: none;
+}

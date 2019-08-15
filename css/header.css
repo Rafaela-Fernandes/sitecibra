@@ -1,0 +1,175 @@
+
+
+@font-face {
+    font-family: proxima-nova-black;
+    src: url("../fonts/proxima-nova-black.otf");
+
+}
+
+@font-face {
+    font-family: proxima-nova;
+    src: url("../fonts/proxima-nova.otf");
+
+}
+
+
+body{
+      font-family: 'proxima-nova';
+}
+header {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000
+}
+
+
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    background: #171415cc;
+}
+
+.logo-topo-alterada {
+    width: 100px
+}
+
+.borda-removida {
+    border-bottom: 0 !important;
+}
+
+header .navbar {
+    border-bottom: solid #FFF 1px
+}
+
+
+header .navbar ul li a {
+
+    color: #FFF !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.5rem 1rem !important;
+
+}
+
+header .navbar ul li:hover {
+    background: #c1d100;
+    transition: all 1s;  
+    border-radius: 60px;
+}
+
+
+header .navbar-toggler {
+    background-color: #c1d100;
+    border-color: rgb(176, 189, 15) !important
+}
+
+
+.carousel-caption-personalizado {
+    position: absolute;
+    right: 15%;
+    bottom: 150px;
+    left: 8%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.titulo {
+    font-family: proxima-nova-black;
+    font-size: 64px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.titulo span:nth-child(2) {
+    color: #a7b501 !important;
+}
+
+.titulo span:last-child {
+    color: #e4f33a !important;
+}
+
+.item-bg {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.box-personalizado {
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.box-container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: table;
+}
+
+.box-titulo {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.btn-padrao {
+    font-family: proxima-nova;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    background-color: #a7b501;
+    -webkit-transition: all 400ms ease !important;
+    -moz-transition: all 400ms ease !important;
+    -ms-transition: all 400ms ease !important;
+    -o-transition: all 400ms ease !important;
+    transition: all 400ms ease !important;
+}
+
+#inicio li {
+    width: 50px !important;
+    height: 8px !important;
+    
+    
+}
+.div-subtitulo h3{
+    color: #5d480c;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+}
+  
+
+#navbarSupportedContent {
+    border-right: 1px solid #FFF;
+    height: 45px;
+}
+
+#redes-socias p {
+    margin: 0;
+    color: #FFF;
+}
+
+#redes-socias svg {
+    font-size: 25px;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+#redes-socias svg:hover {
+    color: #dced0e;
+    transition: all 1s;
+}

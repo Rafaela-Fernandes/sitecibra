@@ -1,0 +1,95 @@
+#section-contato{
+   
+    background-image: url(../img/bg-contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    padding: 5rem 3rem
+
+
+}
+
+.form-contatos{
+   background: #FFF;
+
+   
+color:#6c757d
+}
+.form-contatos input, .form-contatos span{
+
+    border-color: #dee2e6;
+    background-clip: unset;
+    background-color:  #FFF;
+
+}
+
+
+/*
+#nav-contato div{
+    border-bottom: 0;
+}
+
+#nav-contato a.active{
+    background: #e1ef47;
+    border-radius: 0;
+    color: #454a0c;
+   
+}
+
+#nav-contato a{
+     padding: 0.7rem 1rem;
+     font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    letter-spacing: 1px;
+     color: #454a0c
+}
+*/
+
+.form-contatos button{
+   background: #38b6ff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    padding: 0.4rem 5rem; 
+    color: #FFF;
+}
+
+.form-contatos button:hover{
+    background: #3499d4;
+    transition: all 1s;
+        color: #FFF;
+}
+
+#box-contato-links{
+    background: #e9ecef96
+}
+  
+#box-contato-links button{
+    background:   #cbd83b;
+    border-color:   #cbd83b;
+    color:#586917;
+}
+
+#box-contato-links button:hover{
+     background:   #e9fa35;
+     border-color:   #e9fa35;
+    transition: all 1s;
+}
+
+#box-contato-links > div{
+    margin: 10% 0;
+}
+
+#box-contato-links h3 span{
+    font-family: 'proxima-nova-black';
+    font-size: 4rem
+}
+
+#box-contato-links h3 span:first-child{
+    color:#70861e;
+}
+
+#box-contato-links h3 span:last-child{
+    color:#a7b501;
+}

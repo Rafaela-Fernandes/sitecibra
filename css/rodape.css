@@ -1,0 +1,22 @@
+#nav-rodape a{
+    color:#797676;
+}
+
+#nav-rodape a:hover{
+    
+    color:#60670f;
+    background: #c1d100;
+    transition: all 1s;  
+    border-radius: 60px;
+}
+
+
+.fa-chevron-circle-up{
+    color:#cbd83b; font-size: 40px;
+    cursor: pointer;
+}
+.fa-chevron-circle-up:hover{
+    
+    color: #a4b11d;
+    transition: all 1s
+}

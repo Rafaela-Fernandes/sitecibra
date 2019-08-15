@@ -1,0 +1,279 @@
+
+
+
+
+
+
+@media (width: 1024px) {
+
+    #section-nossa-gente img[alt*="img-nossa-gente"] {
+        width: 100%;
+    }
+    header .navbar ul li a {
+        padding: 0 0.5rem !important;
+    }
+}
+
+
+@media (max-width: 900px) {
+   #div-img-nossa-gente{
+        display: none !important
+    } 
+}
+
+@media (max-width: 768px) {
+    
+
+ #slick-personalizado .slick-list {
+        margin-left: 11.5% !important
+    }
+      header .navbar ul li:hover {
+        border-radius: 0;
+    }
+    header {
+        position: absolute;
+        top: 0px
+    }
+
+    header .navbar-brand {
+        margin-left: 1rem;
+    }
+
+    header .navbar-toggler {
+        margin-right: 1.5rem;
+    }
+
+    header .navbar {
+        padding: 0rem !important;
+        max-width: 100% !important;
+        background: #212529d6;
+        border-bottom: 0
+    }
+
+    header .navbar ul li:hover {
+        background: #606800;
+    }
+    header #navbarSupportedContent {
+      
+        border-top: solid #FFF 1px
+    }
+
+    header .navbar img {
+        width: 80%
+    }
+    
+    .box-personalizado {
+        left: 0;
+         right: 0;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 54px;
+        line-height: 45px
+    }
+
+    #navbarSupportedContent {
+        border-right: 0;
+        height: 100vh;
+     
+    }
+    #navbarSupportedContent ul{
+           width: 70%;
+    background: #c1d101;
+    float: right;
+    height: inherit
+    }
+
+    #mapa {
+        display: none !important;
+    }
+
+    #section-fomulariosdiv .media {
+        margin-top: 90% !important;
+    }
+
+    #nav-rodape {
+        font-size: 12px
+    }
+
+    .slick-next {
+        margin-right: 8%;
+    }
+
+    .slick-prev {
+        margin-left: 10%;
+    }
+
+    br {
+        display: none;
+    }
+
+  
+    #box-contato-links{
+        margin-top: 5%;
+    }
+
+   
+}
+
+
+@media (max-width: 576px) {
+   
+    #section-contato{
+        padding: 5rem 2rem !important;
+    }
+    #box-contato-links h3 span{
+        font-size: 2.5rem !important;
+    }
+    .titulo {
+        font-size: 30px;
+        line-height: 27px;
+    }
+
+    
+
+    .div-subtitulo h3 {
+        font-size: 22px
+    }
+
+    .titulo-nossa-gente {
+        font-size: 26px !important
+    }
+
+    .subtitulo-nossa-gente {
+        font-size: 30px !important;
+        line-height: 10px !important;
+    }
+
+    #section-onde-estamos .media-body h5 {
+        font-size: 32px !important;
+    }
+
+    #section-onde-estamos .media-body p {
+        line-height: 9px !important;
+        font-size: 14px !important
+    }
+
+    #section-onde-estamos svg {
+        font-size: 3rem !important
+    }
+
+    #nav-rodape {
+        display: none;
+    }
+
+    #autor-site {
+        flex-direction: column;
+    }
+
+    #autor-site a {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .container div:first-child {
+        justify-content: center !important;
+    }
+
+    .form-contatos {
+        padding: 2rem 1rem !important;
+    }
+
+    .form-contatos p{
+        font-size: 14px
+    }
+    .form-contatos button {
+        display: block;
+        width: 100%
+    }
+
+    #section-nossos-produtos img {
+        width: 40%;
+        margin-top: 6%;
+    }
+
+    .circulo {
+        padding: 3rem 1rem !important;
+        height: 190px !important
+    }
+
+
+    #box-conteudo-centro h3{
+        font-size: 2rem !important;
+    }
+    #box-sirius-titulos span {
+        font-size: 30px !important;
+       
+    }
+    #box-sirius-titulos h5{
+         line-height: 12px;
+    }
+    #box-sirius-titulos p {
+    line-height: initial !important;
+        font-size: 12px
+    
+  }
+    
+    #box-sirius-titulos{
+        padding: 1rem 0;
+    }
+    
+    #box-logo{
+        display: none !important
+    }
+    
+    #box-conteudo-centro{
+        margin-top: 20% !important;
+        padding: 1rem !important
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    #slick-personalizado .slick-list {
+        margin-left: 20% !important;
+    }
+}
+
+
+
+
+@media (min-device-width: 1600px) {
+    .box-personalizado {
+
+        bottom: 260px;
+
+    }
+}
+
+
+
+@media(height: 1024px) {
+    .item-bg {
+
+        height: 80vh;
+
+    }  
+    
+    #section-sirius{
+        height: 60vh !important;
+    }
+    
+}
+
+@media(height: 1366px), (height:1280px) {
+    .item-bg {
+
+        height: 65vh;
+    }
+    
+    #section-sirius{
+        height: 50vh !important;
+    }
+}
+
+
+
+

@@ -1,0 +1,32 @@
+#section-nossa-gente{
+    
+    background: #a7b501;
+}
+
+
+
+.titulo-nossa-gente{
+ font-family: 'proxima-nova';
+    font-size: 34px;
+    line-height: 24px;
+    color: #666901;
+    text-transform: uppercase;
+ 
+}
+
+.subtitulo-nossa-gente {
+    font-family: 'proxima-nova-black';
+    font-size: 60px;
+    line-height: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+   
+}
+
+
+.conteudo-nossa-gente {
+    color: #ffffff;  
+    font-family: 'proxima-nova';
+    font-size: 16px;
+    line-height: 18px;
+}
