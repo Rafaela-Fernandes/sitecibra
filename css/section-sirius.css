@@ -1,15 +1,15 @@
 #section-sirius {
 /*  background-image: linear-gradient(to bottom, #e9ecefe3 0%, #110e40c2 60%), url('../img/bg-sirius.jpg');*/
 /*    background-image: url('../img/bg-sirius.jpg');*/
-    background-image: linear-gradient(to bottom, #310e40db 0%, #0b072fe0 60%), url(../img/bg-sirius.jpg);
-    background-size: cover;
+   background-image: linear-gradient(to bottom, #1c3196e3 0%, #11072feb 60%), url(../img/bg-sirius.jpg);
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+        background-attachment: fixed
 }
 
 /*
@@ -77,5 +77,5 @@
 }
 
 #section-sirius  hr{
-    border-top: 10px solid #c93cfb;
+    border-top: 10px solid #c9e265;
 }
