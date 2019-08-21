@@ -12,60 +12,16 @@
         background-attachment: fixed
 }
 
-/*
-#box-sirius-titulos span{
-      font-size: 40px;
-    font-family: 'proxima-nova-black';
-}
-#box-sirius-titulos span:first-child{
-   color: #FFF;
+#section-sirius h1{
+    font-size: 10rem; 
+    font-family: proxima-nova-black; 
+    line-height: 80px;color:#a59eff;
 }
 
-#box-sirius-titulos span:last-child{
-   color: #b3afef;
+#section-sirius span{
+    font-size:3rem; margin-right:2%;font-family: proxima-nova-black;
+           color: #FFF
 }
-
-#box-sirius-titulos p{
-    line-height: 0.1; letter-spacing: 1px;
-    color:#FFF;
-}
-
-#box-conteudo-centro{
-    margin-top: 7%;background: #e9ecef87;
-}
-
-#box-conteudo-centro h3{
-    font-size: 2.5rem; 
-    text-transform: uppercase;
-    color: #211e52;
-    font-weight: 600
-}
-
-#box-conteudo-centro hr{
-   background: #d0cef1;height: 1px; 
-}
-
-#box-conteudo-centro p{
-    color: #1b2025;
-}
-
-#redes-socias-sirius{
-    background: #211e52;
-    position: absolute;
-    bottom: 0;
-}
-
-#redes-socias-sirius nav span{
-    font-size: 1rem;
-    line-height: 35px; color:#FFF
-}
-
-#redes-socias-sirius nav a{
-    color:#FFF; font-size: 1.5rem;
-}
-*/
-
-
 
 
 #box-paragrafos-sirius p{
@@ -78,4 +34,18 @@
 
 #section-sirius  hr{
     border-top: 10px solid #c9e265;
+}
+
+
+#redes-socias-sirius{
+    background: #211e52;
+}
+
+#redes-socias-sirius nav span{
+    font-size: 1rem;
+    line-height: 35px; color:#FFF
+}
+
+#redes-socias-sirius nav a{
+    color:#FFF; font-size: 1.5rem;
 }
