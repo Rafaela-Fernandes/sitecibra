@@ -21,9 +21,11 @@
     } 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     
-
+    #box-paragrafos-sirius p{
+        font-size: 1.2rem !important
+    }
  #slick-personalizado .slick-list {
         margin-left: 11.5% !important
     }
@@ -49,7 +51,7 @@
         background: #212529d6;
         border-bottom: 0
     }
-
+   
     header .navbar ul li:hover {
         background: #606800;
     }
@@ -119,7 +121,22 @@
 
 
 @media (max-width: 576px) {
-   
+   #box-conteudo-sirius{
+    text-align: center !important;
+}
+
+    #section-sirius h1{
+        font-size: 5rem !important;
+        line-height: 40px !important;
+    
+    }
+     #section-sirius span{
+        font-size: 2rem !important;
+    
+    }
+    #section-sirius img{
+       display: none;
+    }
     #section-contato{
         padding: 5rem 2rem !important;
     }
@@ -206,18 +223,7 @@
         font-size: 30px !important;
        
     }
-    #box-sirius-titulos h5{
-         line-height: 12px;
-    }
-    #box-sirius-titulos p {
-    line-height: initial !important;
-        font-size: 12px
     
-  }
-    
-    #box-sirius-titulos{
-        padding: 1rem 0;
-    }
     
     #box-logo{
         display: none !important
@@ -257,9 +263,7 @@
 
     }  
     
-    #section-sirius{
-        height: 60vh !important;
-    }
+   
     
 }
 
@@ -269,9 +273,7 @@
         height: 65vh;
     }
     
-    #section-sirius{
-        height: 50vh !important;
-    }
+   
 }
 
 
